@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main () {
+    int n, num, par, impar, i=0;
+    printf("Ingrese la cantidad de numeros:");
+    scanf("%d", &n);
+    
+    while (i<=n) {
+    
+        printf("Ingrese un numero: ");
+        scanf("%d", &num);
+        
+        if(num %2==0){
+            par=num;
+            
+        }else{
+            impar=num;
+            
+        }
+        i++;
+    }
+    if(par!=-1)
+    printf("El ultimo numeo par es: %d\n", par);
+    if(impar !=-1){
+        printf( "El ultimo numero impar es: %d\n", impar);
+        
+    }
+return 0;
+}
